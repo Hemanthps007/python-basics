@@ -185,11 +185,27 @@
 #     i += 1
 
 
-# for loops 
+# # for loops 
 
-list = [1,2,3,4]
+# list = [1,2,3,4]
 
-for num in list:
-    print(num)
+# for num in list:
+#     print(num)
 
+# i = 1
+# while i<=0:
+#     j = 0
+#     while j<i:
+#          print("hemu",end="")
+#          j += 1
+#     print()
+#     i += 1
+
+
+n = 5
+for i in range(n):
+     for j in range(i,n):
+        print("*",end="")
+        i += 1
+     print()
 
