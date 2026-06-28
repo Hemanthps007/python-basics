@@ -202,10 +202,89 @@
 #     i += 1
 
 
-n = 5
-for i in range(n):
-     for j in range(i,n):
-        print("*",end="")
-        i += 1
-     print()
+# n = 5
+# for i in range(n):
+#      for j in range(i,n):
+#         print("*",end="")
+#         i += 1
+#      print()
+
+
+# def make_coffe():
+#     print("Wake up")
+#     print("start macine")
+#     print("make cofffe")
+#     print("Enjoy it")
+#     print("Work for a while")
+# make_coffe()
+    
+# import math
+# print(len("Python"))
+# number = 4.2
+# print(math.ceil(number))
+
+# def greet ():
+#     print("Hello")
+# greet()
+
+
+# def multiplay_two(x):
+#     print(x*2)
+# multiplay_two(2)
+
+# def clean_name(name):
+#     print (name.strip().lower())
+# clean_name("HeMANth")
+
+
+# f = 2
+# def multiply(x):
+#     y = f*x
+#     print(y)
+# multiply(2)
+
+
+# a = 10
+# def classs(b,c):
+#     y = a + b * c
+#     print(y)
+# classs(10,20)
+
+# def clean_name(first_name,last_name):
+#     first = first_name.strip().upper()
+#     last = last_name.strip().lower()
+#     full = first + " " + last
+#     print(full)
+# clean_name("Hemu","KIller")
+
+
+# def total(*args):
+#     print((sum(args)))
+
+# total (1,2,3,4,5,6,7,8,9,10)
+
+
+# def create_user(**kwargs):
+#     print(type(kwargs))
+#     print(kwargs)
+# create_user(first_name = "hamanth",
+#             lastname= "ps",
+#             age = "20",
+#             country = "india")
+
+# def user_info(name,email,age):
+#     with open("C:\\Users\\Hemanth\\py",'a') as file:
+#         file.write(name  +" " + email + " " + age + "\n")
+
+# # user_info("hemu","pshemanth2@gmail.com","20")
+
+# # user_info("guru","guru@gmail.com","25")
+# print ("data added successfully")
+
+def is_valid_password(password):
+    return len(password) >= 8
+
+print(is_valid_password("1234567"))
+
+
 
