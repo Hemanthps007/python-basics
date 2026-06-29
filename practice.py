@@ -281,10 +281,10 @@
 # # user_info("guru","guru@gmail.com","25")
 # print ("data added successfully")
 
-def is_valid_password(password):
-    return len(password) >= 8
+# def is_valid_password(password):
+#     return len(password) >= 8
 
-print(is_valid_password("1234567"))
+# print(is_valid_password("1234567"))
 
 
 
