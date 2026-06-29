@@ -50,7 +50,7 @@
 <a href="https://www.youtube.com/@YOUR_YOUTUBE_HANDLE" target="_blank">
   <img src="https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
 </a>
- 
+</td>
 
 <!-- RIGHT -->
     <td width="50%" align="center" valign="top">
@@ -59,8 +59,8 @@
 **DEAD OR ALIVE**
 
 <img
-  src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGwweXhpYXFpMDZqd3R4bHoxbGl5dGtnOWExN3FsZG43OXNrb3ZibyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/DSxKEQoQix9hC/giphy.gif"
-  width="70%"
+  src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"
+  width="85%"
 />
 
 **HEMANTH**  
@@ -132,18 +132,17 @@
   <table width="100%">
     <tr>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=Hemanthps007&show_icons=true&theme=dracula&hide_border=true&count_private=true&title_color=FDE047&icon_color=FDE047&bg_color=0D1117&text_color=c9d1d9" width="100%" />
+        <img src="https://github-readme-stats-eight.vercel.app/api?username=Hemanthps007&show_icons=true&theme=dracula&hide_border=true&count_private=true&title_color=FDE047&icon_color=FDE047&bg_color=0D1117&text_color=c9d1d9" width="100%" />
       </td>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hemanthps007&theme=dracula&layout=compact&hide_border=true&title_color=FDE047&icon_color=FDE047&bg_color=0D1117&text_color=c9d1d9" width="100%" />
+        <img src="https://github-readme-stats-eight.vercel.app/api/top-langs/?username=Hemanthps007&theme=dracula&layout=compact&hide_border=true&title_color=FDE047&icon_color=FDE047&bg_color=0D1117&text_color=c9d1d9" width="100%" />
       </td>
     </tr>
     <tr>
       <td width="50%">
-        <img src="https://nirzak-streak-stats.vercel.app/?user=Hemanthps007&theme=dracula&hide_border=true&stroke=FDE047&ring=FDE047&fire=FDE047&background=0D1117" width="100%" />
+        <img src="https://streak-stats.demolab.com/?user=Hemanthps007&theme=dracula&hide_border=true&stroke=FDE047&ring=FDE047&fire=FDE047&background=0D1117" width="100%" />
       </td>
       <td width="50%">
-        <!-- Replace 'hemanthps007' with your actual LeetCode username if different -->
         <img src="https://leetcard.jacoblin.cool/hemanthps007?theme=dark&font_color=c9d1d9&bg_color=0D1117&border=0" width="100%" />
       </td>
     </tr>
@@ -156,7 +155,6 @@
   <h3>💰 You can help me by Donating</h3>
   <p><i>Even a Yonko needs to eat! Toss some Berries my way to fund the next banquet.</i></p>
   
-  <!-- Replace 'hemanthps007' with your actual Buy Me A Coffee page username if different -->
   <a href="https://buymeacoffee.com/hemanthps007" target="_blank">
     <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
   </a>
