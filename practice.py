@@ -309,8 +309,64 @@
 #     print()
 
 
-n = 6
-for i in range(1,6):
-    for j in range(1, i+1):
-        print(j, end=" ")
-    print()
+# n = 6
+# for i in range(1,6):
+#     for j in range(1, i+1):
+#         print(j, end=" ")
+#     print()
+
+
+# numbers = [5, 2, 6, 3, 4]
+# n = len(numbers)+1
+# expected_sum = n * (n+1)//2
+# actual_sum = sum(numbers)
+# missing_number = expected_sum - actual_sum
+# print(missing_number)
+
+
+# a = [5, 4, 3, 2, 1]
+# a.sort()
+# print(a[-2])
+
+
+# num = [1, 2, 6, 3, 4]
+# n = len(num)+1
+# except_sum = n*(n+1)//2
+# actual_sum = sum(num)
+# missing_number = except_sum - actual_sum
+# print(missing_number)
+
+# class Human:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+#     def walk (self):
+#         print(f"{self.name} is walking the age is {self.age}")
+    
+# Hemanth = Human("Hemanth",20)
+# Hemanth.walk()
+
+
+students = []
+
+for i in range(int(input())):
+    name = input()
+    grade = float(input())
+    students.append([name, grade])
+
+# Get unique grades and sort them
+grades = sorted(set(student[1] for student in students))
+
+# Second lowest grade
+second_lowest = grades[1]
+
+# Get names of students with the second lowest grade
+names = []
+
+for student in students:
+    if student[1] == second_lowest:
+        names.append(student[0])
+
+# Print names alphabetically
+for name in sorted(names):
+    print(name)
