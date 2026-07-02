@@ -346,27 +346,33 @@
 # Hemanth = Human("Hemanth",20)
 # Hemanth.walk()
 
+# n = 10
+# for i in range(n):
+#     for j in range(i,n):
+#         print("*",end = " ")
+#     print()
+# a = 0
+# while a<10:
+#     b = 1
+#     while b <= a:
+#         print("*",end = " ")
+#         b += 1
+#     print()
+#     a += 1
 
-students = []
+# for i in range(0,10):
+#     for j in range(0,10):
+#         print("*",end = " ")
+#     print()
 
-for i in range(int(input())):
-    name = input()
-    grade = float(input())
-    students.append([name, grade])
+# students = {"hemu":99,"chandan":89,"darshan":68}
+# for student in students.items():
+#     print(student)
 
-# Get unique grades and sort them
-grades = sorted(set(student[1] for student in students))
 
-# Second lowest grade
-second_lowest = grades[1]
+l = [1,2,3,4,5]
+dl = [num**2 for num in l]
+print(dl)
 
-# Get names of students with the second lowest grade
-names = []
-
-for student in students:
-    if student[1] == second_lowest:
-        names.append(student[0])
-
-# Print names alphabetically
-for name in sorted(names):
-    print(name)
+y = [x for x in range(1,100)]
+print(y)
