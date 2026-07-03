@@ -336,12 +336,12 @@
 # missing_number = except_sum - actual_sum
 # print(missing_number)
 
-# class Human:
-#     def __init__(self,name,age):
-#         self.name = name
-#         self.age = age
-#     def walk (self):
-#         print(f"{self.name} is walking the age is {self.age}")
+class Human:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def walk (self):
+        print(f"{self.name} is walking the age is {self.age}")
     
 # Hemanth = Human("Hemanth",20)
 # Hemanth.walk()
@@ -370,9 +370,26 @@
 #     print(student)
 
 
-l = [1,2,3,4,5]
-dl = [num**2 for num in l]
-print(dl)
+# l = [1,2,3,4,5]
+# dl = [num**2 for num in l]
+# print(dl)
 
-y = [x for x in range(1,100)]
-print(y)
+# y = [x for x in range(1,100)]
+# print(y)
+
+
+class Car:
+    def __init__(self,name,age,car):
+        self.name = name
+        self.age = age
+        self.car = car
+    def details(self):
+        print(f"name :{self.name}and the age is {self.age}")
+
+    
+
+
+
+
+
+
