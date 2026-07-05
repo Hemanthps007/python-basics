@@ -336,12 +336,12 @@
 # missing_number = except_sum - actual_sum
 # print(missing_number)
 
-class Human:
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
-    def walk (self):
-        print(f"{self.name} is walking the age is {self.age}")
+# class Human:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+#     def walk (self):
+#         print(f"{self.name} is walking the age is {self.age}")
     
 # Hemanth = Human("Hemanth",20)
 # Hemanth.walk()
@@ -351,6 +351,7 @@ class Human:
 #     for j in range(i,n):
 #         print("*",end = " ")
 #     print()
+
 # a = 0
 # while a<10:
 #     b = 1
@@ -377,18 +378,54 @@ class Human:
 # y = [x for x in range(1,100)]
 # print(y)
 
+# a=3
+# while a<=5:
+#     b = 1
+#     while b<=a:
+#         print("*",end=" ")
+#         b+=1
+#     print()
+#     a += 1
 
-class Car:
-    def __init__(self,name,age,car):
-        self.name = name
-        self.age = age
-        self.car = car
-    def details(self):
-        print(f"name :{self.name}and the age is {self.age}")
-
-    
+# score = [10,20,30,40,50]
+# total = 0
+# for scores in score:
+#     total += scores
+#     print("Current total ", total)
+# print("final total ",total)
 
 
+
+# files = ['report.csv','data.csv','final data.csv']
+# for file in files:
+#     file = file.strip()
+#     print(f"processing {file}")
+
+
+for i in range(8):
+    if i == 7:
+        for j in range(1,11):
+            print(f"{i}X{j}={i*j}")
+        print()
+
+for i in range(5):
+    for j in range(i+1):
+        print("*",end=" ")
+    print()
+
+
+names = ['hemu','chandu','','darshan']
+for name in names:
+    if name == '':
+        print("name is not found")
+        pass
+    print(f'name = {name}')
+
+
+
+
+
+  
 
 
 
