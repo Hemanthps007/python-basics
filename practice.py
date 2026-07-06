@@ -402,30 +402,118 @@
 #     print(f"processing {file}")
 
 
-for i in range(8):
-    if i == 7:
-        for j in range(1,11):
-            print(f"{i}X{j}={i*j}")
-        print()
+# for i in range(8):
+#     if i == 7:
+#         for j in range(1,11):
+#             print(f"{i}X{j}={i*j}")
+#         print()
 
-for i in range(5):
-    for j in range(i+1):
-        print("*",end=" ")
-    print()
-
-
-names = ['hemu','chandu','','darshan']
-for name in names:
-    if name == '':
-        print("name is not found")
-        pass
-    print(f'name = {name}')
+# for i in range(5):
+#     for j in range(i+1):
+#         print("*",end=" ")
+#     print()
 
 
+# names = ['hemu','chandu','','darshan']
+# for name in names:
+#     if name == '':
+#         print("name is not found")
+#         pass
+#     print(f'name = {name}')
+
+# days = ['mon','tue','wed','thr','fri','sat','sun']
+# for day in days:
+#     if day in ['sat','sun']:
+#         continue
+#     print(f'working :{day}')
+
+
+# name = ['HEMU','darshan','chandan'," ",'none']
+# for n in name:
+#     if n==" " :
+#         print("the name is empty!")
+#     elif n == n.upper():
+#         print('the alphabets are in upper case')
+#     elif n == n.lower():
+#         print("the alphabets are in lower ")
+#         continue
+#     print("The name is ",n)
+
+
+# _list1 = (1,2,3,4,5,6)
+# _list2 = (10,20,30,40,50,2,4)
+
+# for list in _list1:
+#     for listt in _list2:
+#         if list == listt:
+#             print(f'the same numbers are,{list},{listt}')
+
+
+# colors = ['red','green','brue','orange']
+# sizes = ['L','M','S']
+# for color in colors:
+#     for size in sizes:
+#         print(f'color {color}--size {size}')
+
+
+# years = [2026,2027]
+# months = ["jan","Feb"]
+# days = range(29)
+
+# for year in years:
+#     for month in months:
+#         for day in days:
+#             print(f'{day}-{month}-{year}')
+
+
+# answer = " "
+# while answer != "yes":
+#     answer = input("yes/no:")
+#     print("Are you sure ")
+# print("thank you")
+
+# while True:
+#     answer = input("yes/no:")
+#     if answer == "yes":
+#         break
+# print("thank you")
+
+attempt = 0
+while attempt < 3:
+    answer = input("do u agree ? (yes/no)")
+    if answer == "yes":
+        print("glad we are in the same page")
+        break
+    attempt += 1     
+else:
+    print("3 strikes tou are out ")
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
 
 
 
