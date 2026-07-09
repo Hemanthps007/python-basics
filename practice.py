@@ -478,15 +478,15 @@
 #         break
 # print("thank you")
 
-attempt = 0
-while attempt < 3:
-    answer = input("do u agree ? (yes/no)")
-    if answer == "yes":
-        print("glad we are in the same page")
-        break
-    attempt += 1     
-else:
-    print("3 strikes tou are out ")
+# attempt = 0
+# while attempt < 3:
+#     answer = input("do u agree ? (yes/no)")
+#     if answer == "yes":
+#         print("glad we are in the same page")
+#         break
+#     attempt += 1     
+# else:
+#     print("3 strikes tou are out ")
 
 
 
