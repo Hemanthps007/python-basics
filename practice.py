@@ -488,17 +488,33 @@
 # else:
 #     print("3 strikes tou are out ")
 
+# n=10
+# for i  in range(n):
+#     for j in range(i):
+#         print("*",end = " ")
+#     print()
+
+# i = 0
+# while i<=10:
+#     j = 1
+#     while j<=i:
+#         print("*",end = " ")
+#         j += 1
+#     print()
+#     i += 1
 
 
 
+def dic(keys,values):
+    keys = 20
+    values = "hemu"
+    if keys and values == True:
+        print("the details are correct:")
 
 
 
-
-
-
-
-
+dic(20,"hemu")
+print(dic)
 
 
 
