@@ -596,13 +596,41 @@
 # arr.sort()
 # print(arr[-2])
 
+#check the given string is palindrome or not
 
-string = "121"
-pal = string[::-1]
-if string == pal:
-    print("it is palinderome")
-else :
-    print("not a palindrome")
+# string = "malayalam"
+# pal = string[::-1]
+# if string == pal:
+#     print("it is palinderome")
+# else :
+#     print("not a palindrome")
+
+
+# sort the arrays using bubble sort
+# def sort (nums):
+#     for i in range(len(nums)-1,0,-1):
+#         for j in range(i):
+#             if nums[j]>nums[j+1]:
+#                 temp = nums[j]
+#                 nums[j]=nums[j+1]
+#                 nums[j+1] = temp
+
+# nums=[2,3,64,355,234,5,8,9,0]
+# sort(nums)
+# print(nums)
+
+
+# find the sum os the digit of the number
+
+C = int(input("Enter the number: "))
+n = 0
+while C>0:
+    r = C%10
+    n += r
+    C = C//10
+print("the sum is :",n)
+
+
 
 
 
