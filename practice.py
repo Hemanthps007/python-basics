@@ -622,15 +622,37 @@
 
 # find the sum os the digit of the number
 
-C = int(input("Enter the number: "))
-n = 0
-while C>0:
-    r = C%10
-    n += r
-    C = C//10
-print("the sum is :",n)
+# C = int(input("Enter the number: "))
+# n = 0
+# while C>0:
+#     r = C%10
+#     n += r
+#     C = C//10
+# print("the sum is :",n)
+
+# l1 = [2,4,3]
+# l2 = [5,6,4]
+
+# b = [l1[::-1], l2[::-1]]
+
+# for i in b:
+#     print(i)
+
+# c = l1 + l2
+# print(c[::-1])
 
 
+n = 10
+for i in range (n):
+    for j in range (i,n):
+        print("*",end = " ")
+    print()
 
-
-
+A = 0
+while A<=10:
+    B = 0
+    while B<=A:
+        print("*",end = " ")
+        B +=  1
+    print()
+    A += 1
