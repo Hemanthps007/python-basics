@@ -656,3 +656,25 @@ while A<=10:
         B +=  1
     print()
     A += 1
+
+nums = 10
+
+a,b = 1,2
+print("finonacce series:")
+for i in range(nums):
+    print(a,end =" ")
+    a,b = b,a+b
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
