@@ -642,34 +642,43 @@
 # print(c[::-1])
 
 
-n = 10
-for i in range (n):
-    for j in range (i,n):
-        print("*",end = " ")
-    print()
+# n = 10
+# for i in range (n):
+#     for j in range (i,n):
+#         print("*",end = " ")
+#     print()
 
-A = 0
-while A<=10:
-    B = 0
-    while B<=A:
-        print("*",end = " ")
-        B +=  1
-    print()
-    A += 1
+# A = 0
+# while A<=10:
+#     B = 0
+#     while B<=A:
+#         print("*",end = " ")
+#         B +=  1
+#     print()
+#     A += 1
 
-nums = 10
+# nums = 10
 
-a,b = 1,2
-print("finonacce series:")
-for i in range(nums):
-    print(a,end =" ")
-    a,b = b,a+b
+# a,b = 1,2
+# print("finonacce series:")
+# for i in range(nums):
+#     print(a,end =" ")
+#     a,b = b,a+b
 
+#merge two sorted array into one
 
+# a = [1,2,3,4]
+# b = [0,5,6,7]
+# c = print(sorted(a+b))
 
+#Two sum
 
-
-
+nums=[2,7,5,8]
+target = 9
+for i in range(len(nums)):
+    for j in range(i + 1, len(nums)):
+        if nums[i] + nums[j] == target:
+            print(i, j)
 
 
 
