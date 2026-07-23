@@ -673,15 +673,33 @@
 
 #Two sum
 
-nums=[2,7,5,8]
-target = 9
-for i in range(len(nums)):
-    for j in range(i + 1, len(nums)):
-        if nums[i] + nums[j] == target:
-            print(i, j)
+# nums=[2,7,5,8]
+# target = 9
+# for i in range(len(nums)):
+#     for j in range(i + 1, len(nums)):
+#         if nums[i] + nums[j] == target:
+#             print(i, j)
 
+num = int(input("Enter the number:"))
+fact = 1
+if num <0:
+    print("the facorial is not exist")
+elif num==0:
+    print("facorial is 1")
+else :
+    for i in range(1,num+1):
+        fact = fact * i
+    print(fact)
 
+#count the frequency of an array
 
+a =[1,1,2,3,4,5]
+count = 0
+for i in a:
+    if i ==1:
+        count += 1
+print(count)
+    
 
 
 
