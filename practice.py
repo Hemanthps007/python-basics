@@ -680,28 +680,139 @@
 #         if nums[i] + nums[j] == target:
 #             print(i, j)
 
-num = int(input("Enter the number:"))
-fact = 1
-if num <0:
-    print("the facorial is not exist")
-elif num==0:
-    print("facorial is 1")
-else :
-    for i in range(1,num+1):
-        fact = fact * i
-    print(fact)
+# num = int(input("Enter the number:"))
+# fact = 1
+# if num <0:
+#     print("the facorial is not exist")
+# elif num==0:
+#     print("facorial is 1")
+# else :
+#     for i in range(1,num+1):
+#         fact = fact * i
+#     print(fact)
 
 #count the frequency of an array
 
-a =[1,1,2,3,4,5]
-count = 0
-for i in a:
-    if i ==1:
-        count += 1
-print(count)
+# a =[1,1,2,3,4,5]
+# count = 0
+# for i in a:
+#     if i ==1:
+#         count += 1
+# print(count)
     
+# the range fixed from 1 to 10
+
+# for i in range(1,11):
+#     print(i)
+# i=1
+# while i<11:
+#     print(i)
+#     i+=1
+
+#print the reverse of the number in for loops
+# for i in range(-10,0):
+#     print(i)
 
 
+#display the message of done after successful execution of the loop
 
+# def num():
+#     for i in range(0,5):
+#         print(i)
+#     print("Done!")
+# num()
 
+#Calculate the sum of all numbers from 1 to N
+
+# def n_num(n):
+#     a = 0
+#     for i in range(a,n+1):
+#         a += i
+#     return a
+# result = n_num(10)
+# print("Sum:",result)
+
+#without function
+
+# n = int(input("Enter the number:"))
+# s = 0
+# for i in range(1,n+1):
+#     s += 1
+# print("Sum :",s)
+
+#print the tables from 1 to 10
+# for i in range(1,11):
+#     for j in range(1,11):
+#         print(f"{i}X{j}={i*j}")
+
+#Calculate the number of all numbers from 1 to a given number
+
+# num = int(input("Enter the number: "))
+# for i in range(1,num+1):
+#     print(f"Current Number is :{i} and the Cube is {i**3}")
+
+#Display numbers from a list using a loop
+
+# numbers =[12,75,150,180,145,525,50]
+
+# for i in numbers:
+#     if i >500:
+#         break
+#     elif i > 150:
+#         continue
+
+#     if i %5==0:
+#         print(i)
+
+#Count occurrences of a specific element in a list
+
+# list1 = [10,20,10,30,10,40,50,10]
+# count = 0
+# target = 10
+# for l in list1:
+#     if l == target:
+#         count += 1
+   
+# print("this target found",count)
+
+#Print elements from a list present at odd index positions
+
+# my_list =[10,20,30,40,50,60,70,80,90,100]
+
+# for list in my_list:
+#     if list %4==0:
+#         print("odd list",list)
+#         continue
+
+#Print list in reverse order using a loop
+
+# list1 = [10,20,30,40,50]
+# for i in list1[::-1]:
+#     print(i)
     
+#Reverse a string using a for loop (no slicing)
+
+# list1 = str(input("Enter the string"))
+# size = len(list1) - 1
+# for i in range(size, -1, -1):
+#     print(list1[i],end = " ")
+
+#Count vowels and consonants in a sentence
+
+a = str(input("Enter the string:"))
+vowels = "aeiou"
+v_count = 0
+c_count = 0
+for i in a.lower():
+    if i.isalpha():
+        if i in vowels:
+            v_count += 1
+        else:
+            c_count += 1
+print(f"vowels:{v_count}")
+print(f"consonants:{c_count}")
+
+
+            
+
+            
