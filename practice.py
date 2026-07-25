@@ -799,20 +799,54 @@
 
 #Count vowels and consonants in a sentence
 
-a = str(input("Enter the string:"))
-vowels = "aeiou"
-v_count = 0
-c_count = 0
-for i in a.lower():
-    if i.isalpha():
-        if i in vowels:
-            v_count += 1
-        else:
-            c_count += 1
-print(f"vowels:{v_count}")
-print(f"consonants:{c_count}")
+# a = str(input("Enter the string:"))
+# vowels = "aeiou"
+# v_count = 0
+# c_count = 0
+# for i in a.lower():
+#     if i.isalpha():
+#         if i in vowels:
+#             v_count += 1
+#         else:
+#             c_count += 1
+# print(f"vowels:{v_count}")
+# print(f"consonants:{c_count}")
+
+#Reverse an integer number
+
+# num = 76542
+# reverse_number = 0
+# while num>0:
+#     digit = num%10
+#     reverse_number=(reverse_number*10)+digit
+#     num = num //10
+# print(reverse_number)
+
+#Find largest and smallest digit in a number
+
+# a = int( input("Enter the numbers: "))
+# a = str(a)
+# b = min(a)
+# c = max(a)
+# print(b,c)
+
+# for i in a:
+#     if i == b:
+#         print("minimum of number",b)
+#     elif i == c :
+#         print("maximum of number",c)
 
 
-            
+#check if a number is a palindrome
+
+a = "malayalam"
+a = str(a)
+b = a[::-1]
+for i in a:
+    if i == b:
+        print("this is palindrome")
+    else :
+        print("not a palindrome")
+    
 
             
