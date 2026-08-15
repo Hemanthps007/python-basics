@@ -839,14 +839,14 @@
 
 #check if a number is a palindrome
 
-a = "malayalam"
-a = str(a)
-b = a[::-1]
-for i in a:
-    if i == b:
-        print("this is palindrome")
-    else :
-        print("not a palindrome")
+# a = "malayalam"
+# a = str(a)
+# b = a[::-1]
+# for i in a:
+#     if i == b:
+#         print("this is palindrome")
+#     else :
+#         print("not a palindrome")
     
 
             
