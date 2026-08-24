@@ -848,5 +848,21 @@
 #     else :
 #         print("not a palindrome")
     
-
+# a = str(input("Enter the string:"))
+# b = a[::-1]
+# if a == b:
+#     print("this is palindrome")
+# else:
+#     print("not a palindrome")
             
+
+def palindrome(num):
+    num = str(num)
+    if num == num[::-1]:
+        print("Palindrome")
+    else:
+        print("Not a palindrome")
+palindrome(121)
+
+
+
