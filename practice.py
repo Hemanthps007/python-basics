@@ -856,13 +856,48 @@
 #     print("not a palindrome")
             
 
-def palindrome(num):
-    num = str(num)
-    if num == num[::-1]:
-        print("Palindrome")
-    else:
-        print("Not a palindrome")
-palindrome(121)
+# def palindrome(num):
+#     num = str(num)
+#     if num == num[::-1]:
+#         print("Palindrome")
+#     else:
+#         print("Not a palindrome")
+# palindrome(121)
 
 
+# for i in range (1,11):
+#     for j in range(1,11):
+#         print(f"{i}X{j}={i*j}",end =" ")
+#     print()
 
+#even or odd number
+
+# a = int(input("Enter the number: "))
+
+# if a%2 ==0:
+#     print("even number")
+# else:
+#     print("odd number")
+
+#positive negative or zero
+
+# num = int(input("Enter the number: "))
+
+# if num > 0:
+#     print("positive number")
+# elif num <0:
+#     print("negative number")
+# else:
+#     print("zero")
+
+a = 20
+b = 20 
+
+if a>b:
+    print("a is larger")
+    break
+elif a<b:
+    print("b is larget")
+    break
+else :
+    print("Equal")
