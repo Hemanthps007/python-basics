@@ -890,14 +890,27 @@
 # else:
 #     print("zero")
 
-a = 20
-b = 20 
+# a = 20
+# b = 20 
 
-if a>b:
-    print("a is larger")
-    break
-elif a<b:
-    print("b is larget")
-    break
+# if a>b:
+#     print("a is larger")
+# elif a<b:
+#     print("b is larget")
+# else :
+#     print("Equal")
+
+
+#largest of three numbers
+
+a = 10 
+b = 30
+c = 30
+
+if a > b :
+    print("A is largest")
+elif b>a and b>c:
+    print("b is largest")
 else :
-    print("Equal")
+    print("c is largest")
+
