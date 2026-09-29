@@ -903,14 +903,21 @@
 
 #largest of three numbers
 
-a = 10 
-b = 30
-c = 30
+# a = 10 
+# b = 30
+# c = 30
 
-if a > b :
-    print("A is largest")
-elif b>a and b>c:
-    print("b is largest")
-else :
-    print("c is largest")
+# if a > b and a> c :
+#     print("A is largest")
+# elif a==b and a==c:
+#     print("all are equal ")
+# elif b>a and b>c:
+#     print("b is largest")
+# else :
+#     print("c is largest")
+
+
+
+
+
 
