@@ -917,7 +917,25 @@
 #     print("c is largest")
 
 
+#pattern counting 
 
+# def count_odd_numbers(numbers):
+#     count = 0
+#     for num in numbers:
+#         if num < 0:
+#             count += 1
+#     return count
 
+# print(count_odd_numbers([-2, 5, 8, 11, 14, 17]))
 
+#print the vowels in a string
 
+def count_vowels(string):
+    vowels = "aeiowAEIOU"
+    count = 0
+    for char in string:
+        if char in vowels:
+            count += 1
+    return count
+
+print(count_vowels("abcde"))
