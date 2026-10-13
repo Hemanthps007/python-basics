@@ -930,12 +930,21 @@
 
 #print the vowels in a string
 
-def count_vowels(string):
-    vowels = "aeiowAEIOU"
-    count = 0
-    for char in string:
-        if char in vowels:
-            count += 1
-    return count
+# def count_vowels(string):
+#     vowels = "aeiowAEIOU"
+#     count = 0
+#     for char in string:
+#         if char in vowels:
+#             count += 1
+#     return count
 
-print(count_vowels("abcde"))
+# print(count_vowels("abcde"))
+
+
+# trackin a min or max number in a list
+numbers = [12, 5, 28, 9, 17, 3]
+max_number = numbers[0]
+for i in numbers:
+    if i > max_number:
+        max_number = i
+print(max_number)
