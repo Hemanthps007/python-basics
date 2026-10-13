@@ -942,9 +942,19 @@
 
 
 # trackin a min or max number in a list
+# numbers = [12, 5, 28, 9, 17, 3]
+# max_number = numbers[0]
+# for i in numbers:
+#     if i > max_number:
+#         max_number = i
+# print(max_number)
+
+
 numbers = [12, 5, 28, 9, 17, 3]
-max_number = numbers[0]
+min_number = numbers[0]
 for i in numbers:
-    if i > max_number:
-        max_number = i
-print(max_number)
+    if i < min_number:
+        min_number = i
+print(min_number)
+
+
