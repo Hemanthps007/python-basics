@@ -950,11 +950,20 @@
 # print(max_number)
 
 
-numbers = [12, 5, 28, 9, 17, 3]
-min_number = numbers[0]
-for i in numbers:
-    if i < min_number:
-        min_number = i
-print(min_number)
+# numbers = [12, 5, 28, 9, 17, 3]
+# min_number = numbers[0]
+# for i in numbers:
+#     if i < min_number:
+#         min_number = i
+# print(min_number)
 
 
+def find_target(numbers, target):
+    count=0
+    for i in numbers:
+        if i==target:
+            count += 1
+            print(count)
+    else:
+        print("not found")
+find_target([10, 25, 15, 40, 30,15,15],15)
