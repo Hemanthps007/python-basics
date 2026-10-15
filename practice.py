@@ -958,12 +958,102 @@
 # print(min_number)
 
 
-def find_target(numbers, target):
-    count=0
-    for i in numbers:
-        if i==target:
-            count += 1
-            print(count)
-    else:
-        print("not found")
-find_target([10, 25, 15, 40, 30,15,15],15)
+# def find_target(numbers, target):
+#     count=0
+#     for i in numbers:
+#         if i==target:
+#             count += 1
+#             print(count)
+#     else:
+#         print("not found")
+# find_target([10, 25, 15, 40, 30,15,15],15)
+
+
+#Count the Occurrences of a Number
+
+# numbers = [4, 8, 12, 16, 20, 7]
+# target = 7
+
+# for i in numbers:
+#     if i==target:
+#         print("found")
+#         break
+# else:
+#     print("not found")
+
+
+
+# numbers = [2, 5, 2, 8, 2, 10, 5]
+# target = 2
+# count=0
+# for i in numbers:
+#     if i==target:
+#         count += 1
+# print(count)
+
+# find the first occurance
+
+# numbers = [5, 8, 3, 8, 10, 8]
+# target = 8
+# first_occurrence = -1
+# for i in range(len(numbers)):
+#     if numbers[i] == target:
+#         first_occurrence = i
+#         break
+# print(first_occurrence)
+
+
+# numbers = [1,3,4,5,6,7,88,90,10,1,1,1]
+# target = 1
+# second_occurrence = -1
+# count = 0
+# for i in range(len(numbers)):
+#     if numbers[i] == target:
+#         count += 1
+#         if count == 2:
+#             second_occurrence = i
+#             break
+# print(second_occurrence)
+
+
+# numbers = [1, 2, 3, 4, 5,5,5]
+# target = 5
+# first_occurrence = -1
+
+# for i in range(len(numbers)):
+#     if numbers[i] == target:
+#         first_occurrence = i
+#         break
+# print(first_occurrence)
+
+
+# numbers=[1,3,4,5,6,7,88,90,10,1,1,1]
+# target = 1 
+# second_occurance = -1
+# count =0
+# for i in range(len(numbers)):
+#     if numbers[i]==target:
+#         count += 1
+#         if count == 2:
+#             second_occurance = i
+#             break
+# print(second_occurance)
+
+
+#
+
+# numbers=[0,1,2,5,6,5,5]
+# third_occurance = -1
+# target = 5
+# count = 0
+# for i in range(len(numbers)):
+#     if numbers[i] == target:
+#         count+=1
+#         if count ==3:
+#             third_occurance = i
+#             break
+# print(third_occurance)
+
+
+
+
