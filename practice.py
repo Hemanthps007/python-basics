@@ -1040,7 +1040,7 @@
 # print(second_occurance)
 
 
-#
+#find the third occurance of the number in the list
 
 # numbers=[0,1,2,5,6,5,5]
 # third_occurance = -1
@@ -1054,6 +1054,23 @@
 #             break
 # print(third_occurance)
 
+
+
+numbers = [2, 3, 2, 5, 3, 2]
+frequency = {}
+for num in numbers:
+    if num in frequency:
+        frequency[num] += 1
+    else:
+        frequency[num] = 1
+print(frequency)
+
+numbers = [2, 3, 2, 5, 3, 2]
+frequency = {}
+for num in numbers:
+    frequency[num] = frequency.get(num, 0) + 1
+
+print(frequency)
 
 
 
